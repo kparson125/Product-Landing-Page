@@ -1,0 +1,51 @@
+.logo-image{
+    width: 200px;
+    height: 200px;
+  }
+  header{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    position: fixed;
+  }
+  ul{
+   list-style: none; 
+    display: flex;
+    justify-content: space-around;
+    }
+  nav{
+    width: 100%;
+  }
+  .sign-up-page{
+    height: 550px;
+    justify-content: center;
+    align-items: center;
+    }
+  .sign-up-form{
+    text-align: center;
+    margin-bottom: 15px;
+  }
+  .video-page{
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    }
+  .video{
+    text-align: center;
+    }
+  .piano{
+    height: 500px;
+    background-image:url("https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSyFv7r9xNZOBMxtQrkIJJpffZmN38Blu6MFIUdalMs-6lpAeHb&usqp=CAU")
+  }
+  @media only screen and (max-width: 600px){
+    nav{
+      display: none;
+        }
+  }
+  
+  
+  
+  
+  
+  
